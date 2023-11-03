@@ -1,0 +1,60 @@
+.App{
+   background-image: linear-gradient(#EBEDC9, #2BC0E4);
+   /* overflow-x: hidden; 
+   overflow-y: hidden; */
+   overflow:hidden;
+}
+
+.Bg-Logo{
+  /* background-color:white; */
+  width:90%;
+  margin-left:5%;
+  margin-bottom:10px
+}
+
+.Logo{
+  width:90%;
+  margin-left:10%
+}
+
+.Page-Tour{
+  width:75%;
+  height:25%;
+  /* position: absolute; */
+  z-index: 2; 
+  padding:20px;
+  margin-top:-180px;
+  margin-left:150px;
+  border-radius:15px;
+  background: linear-gradient(white,transparent)
+}
+
+.Font-Custom{
+  font-family:'Barriecito'
+}
+
+.Title{
+  margin-top:70px
+}
+
+.Image-Bg{
+  width:119%
+}
+
+.Button-Join{
+  color: black;
+  font-size:4vh;
+  float:right;
+  margin-right:5%;
+  text-decoration:none;
+  background-color:none;
+}
+
+.Button-Join:hover{
+  text-decoration:underline;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #2BC0E4 !important;
+}
